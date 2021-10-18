@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Courier New;
+}
+#main h1{
+  margin: 20px;
+}
+.container{
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.container input{
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+  border-radius: 8px;
+}
+.container td button{
+  font-size: 45px;
+  margin: 10px;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 5px;
+  background: transparent;
+}
